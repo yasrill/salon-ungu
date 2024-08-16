@@ -1,0 +1,111 @@
+CRITICAL - 2023-06-16 21:26:47 --> Undefined array key "pembayaran"
+in APPPATH\Views\pages\KonfirmasiBook.php on line 55.
+ 1 APPPATH\Views\pages\KonfirmasiBook.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pembayaran"', 'APPPATH\\Views\\pages\\KonfirmasiBook.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBook', [], true)
+ 5 APPPATH\Controllers\Booking.php(50): view('/pages/KonfirmasiBook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->konfirmasiBook()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 21:28:24 --> Undefined array key "pembayaran"
+in APPPATH\Views\pages\KonfirmasiBook.php on line 55.
+ 1 APPPATH\Views\pages\KonfirmasiBook.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pembayaran"', 'APPPATH\\Views\\pages\\KonfirmasiBook.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBook', [], true)
+ 5 APPPATH\Controllers\Booking.php(50): view('/pages/KonfirmasiBook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->konfirmasiBook()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 21:46:37 --> Undefined variable $login_status
+in APPPATH\Views\pages\Booking.php on line 15.
+ 1 APPPATH\Views\pages\Booking.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $login_status', 'APPPATH\\Views\\pages\\Booking.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\Booking.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/booking', [], true)
+ 5 APPPATH\Controllers\Booking.php(76): view('pages/booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->dibatalkan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 21:47:54 --> Undefined variable $login_status
+in APPPATH\Views\pages\Booking.php on line 15.
+ 1 APPPATH\Views\pages\Booking.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $login_status', 'APPPATH\\Views\\pages\\Booking.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\Booking.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/booking', [], true)
+ 5 APPPATH\Controllers\Booking.php(74): view('pages/booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->dibatalkan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 22:04:47 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Komponen', 'verif_batal')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 22:05:48 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Komponen', 'verif_batal')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 22:06:13 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Komponen', 'verif_batal')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 22:07:17 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 8.
+ 1 APPPATH\Views\layout\template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layout\\template.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('/layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('komponen/verif_batal', [], true)
+ 6 APPPATH\Controllers\Booking.php(62): view('komponen/verif_batal')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->dibatalkan()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 22:07:39 --> Undefined variable $data
+in APPPATH\Controllers\Booking.php on line 62.
+ 1 APPPATH\Controllers\Booking.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Booking.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->dibatalkan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 23:09:16 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Komponen', 'Verif_batal')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 23:09:53 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Komponen', 'Verif_batal')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 23:40:46 --> Cannot redeclare App\Models\PenggunaModel::insertAlasanBatal()
+in APPPATH\Models\PenggunaModel.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

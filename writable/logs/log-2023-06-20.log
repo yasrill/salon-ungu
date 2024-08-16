@@ -1,0 +1,1079 @@
+ERROR - 2023-06-20 08:35:11 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '12345', 'salonungu', 3306, '', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(40): CodeIgniter\Database\BaseConnection->query('SELECT * FROM l...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php(23): App\Models\PenggunaModel->selectdatalayanan()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Booking->booking()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(40): CodeIgniter\Database\BaseConnection->query('SELECT * FROM l...')
+#3 C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php(23): App\Models\PenggunaModel->selectdatalayanan()
+#4 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Booking->booking()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-20 08:35:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\PenggunaModel.php(40): CodeIgniter\Database\BaseConnection->query('SELECT * FROM layanan')
+ 3 APPPATH\Controllers\Booking.php(23): App\Models\PenggunaModel->selectdatalayanan()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->booking()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 08:35:16 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '12345', 'salonungu', 3306, '', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(40): CodeIgniter\Database\BaseConnection->query('SELECT * FROM l...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php(23): App\Models\PenggunaModel->selectdatalayanan()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Booking->booking()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(40): CodeIgniter\Database\BaseConnection->query('SELECT * FROM l...')
+#3 C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php(23): App\Models\PenggunaModel->selectdatalayanan()
+#4 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Booking->booking()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-20 08:35:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\PenggunaModel.php(40): CodeIgniter\Database\BaseConnection->query('SELECT * FROM layanan')
+ 3 APPPATH\Controllers\Booking.php(23): App\Models\PenggunaModel->selectdatalayanan()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->booking()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 08:40:16 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('printpdf')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 08:48:33 --> Undefined array key 0
+in APPPATH\Views\pages\KonfirmasiBookOnline.php on line 20.
+ 1 APPPATH\Views\pages\KonfirmasiBookOnline.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\KonfirmasiBookOnline.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBookOnline.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOnline', [], true)
+ 5 APPPATH\Controllers\Booking.php(137): view('/pages/KonfirmasiBookOnline', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 08:49:16 --> Call to a member function build_tree() on null
+in FCPATH\vendor\dompdf\dompdf\src\Dompdf.php on line 526.
+ 1 FCPATH\vendor\dompdf\dompdf\src\Dompdf.php(693): Dompdf\Dompdf->processHtml()
+ 2 APPPATH\Controllers\Booking.php(139): Dompdf\Dompdf->render()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 08:49:58 --> Undefined array key 0
+in APPPATH\Views\pages\KonfirmasiBookOnline.php on line 20.
+ 1 APPPATH\Views\pages\KonfirmasiBookOnline.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\KonfirmasiBookOnline.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBookOnline.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOnline', [], true)
+ 5 APPPATH\Controllers\Booking.php(137): view('/pages/KonfirmasiBookOnline', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 08:50:47 --> Undefined array key 0
+in APPPATH\Views\pages\KonfirmasiBookOnline.php on line 20.
+ 1 APPPATH\Views\pages\KonfirmasiBookOnline.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\KonfirmasiBookOnline.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBookOnline.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOnline', [], true)
+ 5 APPPATH\Controllers\Booking.php(137): view('/pages/KonfirmasiBookOnline', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 09:40:17 --> Undefined array key 0
+in APPPATH\Views\pages\KonfirmasiBookOnline.php on line 20.
+ 1 APPPATH\Views\pages\KonfirmasiBookOnline.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\KonfirmasiBookOnline.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBookOnline.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOnline', [], true)
+ 5 APPPATH\Controllers\Booking.php(137): view('/pages/KonfirmasiBookOnline', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 09:41:13 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('printpdf')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 09:41:21 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('printpdf')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 09:42:50 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('printpdf')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 09:43:34 --> Undefined array key 0
+in APPPATH\Views\pages\KonfirmasiBookOnline.php on line 20.
+ 1 APPPATH\Views\pages\KonfirmasiBookOnline.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\KonfirmasiBookOnline.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBookOnline.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOnline', [], true)
+ 5 APPPATH\Controllers\Booking.php(137): view('/pages/KonfirmasiBookOnline', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 09:43:42 --> Too few arguments to function Dompdf\Dompdf::setPaper(), 0 passed in C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php on line 139 and at least 1 expected
+in FCPATH\vendor\dompdf\dompdf\src\Dompdf.php on line 968.
+ 1 APPPATH\Controllers\Booking.php(139): Dompdf\Dompdf->setPaper()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 10:18:56 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('printpdf')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 10:33:33 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('printpdf')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 10:37:23 --> Undefined array key 0
+in APPPATH\Views\pages\KonfirmasiBookOffline.php on line 20.
+ 1 APPPATH\Views\pages\KonfirmasiBookOffline.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\KonfirmasiBookOffline.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBookOffline.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOffline', [], true)
+ 5 APPPATH\Controllers\Booking.php(135): view('/pages/KonfirmasiBookOffline', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 10:37:42 --> Undefined array key 0
+in APPPATH\Views\pages\KonfirmasiBookOffline.php on line 20.
+ 1 APPPATH\Views\pages\KonfirmasiBookOffline.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\KonfirmasiBookOffline.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBookOffline.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOffline', [], true)
+ 5 APPPATH\Controllers\Booking.php(135): view('/pages/KonfirmasiBookOffline', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 10:39:13 --> Undefined array key 0
+in APPPATH\Views\pages\KonfirmasiBookOffline.php on line 20.
+ 1 APPPATH\Views\pages\KonfirmasiBookOffline.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\KonfirmasiBookOffline.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBookOffline.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOffline', [], true)
+ 5 APPPATH\Controllers\Booking.php(135): view('/pages/KonfirmasiBookOffline', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 10:39:24 --> Undefined array key 0
+in APPPATH\Views\pages\KonfirmasiBookOffline.php on line 20.
+ 1 APPPATH\Views\pages\KonfirmasiBookOffline.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\KonfirmasiBookOffline.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBookOffline.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOffline', [], true)
+ 5 APPPATH\Controllers\Booking.php(135): view('/pages/KonfirmasiBookOffline', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 10:39:25 --> Undefined array key 0
+in APPPATH\Views\pages\KonfirmasiBookOffline.php on line 20.
+ 1 APPPATH\Views\pages\KonfirmasiBookOffline.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\KonfirmasiBookOffline.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBookOffline.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOffline', [], true)
+ 5 APPPATH\Controllers\Booking.php(135): view('/pages/KonfirmasiBookOffline', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 10:39:26 --> Undefined array key 0
+in APPPATH\Views\pages\KonfirmasiBookOffline.php on line 20.
+ 1 APPPATH\Views\pages\KonfirmasiBookOffline.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\KonfirmasiBookOffline.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBookOffline.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOffline', [], true)
+ 5 APPPATH\Controllers\Booking.php(135): view('/pages/KonfirmasiBookOffline', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 10:39:29 --> Undefined array key 0
+in APPPATH\Views\pages\KonfirmasiBookOffline.php on line 20.
+ 1 APPPATH\Views\pages\KonfirmasiBookOffline.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\KonfirmasiBookOffline.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBookOffline.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOffline', [], true)
+ 5 APPPATH\Controllers\Booking.php(135): view('/pages/KonfirmasiBookOffline', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 10:41:59 --> Undefined array key 0
+in APPPATH\Views\pages\KonfirmasiBookOffline.php on line 20.
+ 1 APPPATH\Views\pages\KonfirmasiBookOffline.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\KonfirmasiBookOffline.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBookOffline.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOffline', [], true)
+ 5 APPPATH\Controllers\Booking.php(135): view('/pages/KonfirmasiBookOffline', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 10:51:39 --> Undefined array key 0
+in APPPATH\Views\pages\printpdf.php on line 20.
+ 1 APPPATH\Views\pages\printpdf.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\printpdf.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\printpdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/printpdf', [], true)
+ 5 APPPATH\Controllers\Booking.php(134): view('/pages/printpdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 10:56:36 --> Undefined array key 0
+in APPPATH\Views\pages\printpdf.php on line 20.
+ 1 APPPATH\Views\pages\printpdf.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\printpdf.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\printpdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/printpdf', [], true)
+ 5 APPPATH\Controllers\Booking.php(134): view('/pages/printpdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 10:57:11 --> Undefined array key "Nama_pelanggan"
+in APPPATH\Views\pages\printpdf.php on line 20.
+ 1 APPPATH\Views\pages\printpdf.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nama_pelanggan"', 'APPPATH\\Views\\pages\\printpdf.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\printpdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/printpdf', [], true)
+ 5 APPPATH\Controllers\Booking.php(134): view('/pages/printpdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 10:57:38 --> Undefined array key 0
+in APPPATH\Views\pages\printpdf.php on line 20.
+ 1 APPPATH\Views\pages\printpdf.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\printpdf.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\printpdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/printpdf', [], true)
+ 5 APPPATH\Controllers\Booking.php(134): view('/pages/printpdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 10:58:07 --> Undefined array key 1
+in APPPATH\Views\pages\printpdf.php on line 20.
+ 1 APPPATH\Views\pages\printpdf.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Views\\pages\\printpdf.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\printpdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/printpdf', [], true)
+ 5 APPPATH\Controllers\Booking.php(134): view('/pages/printpdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 10:59:02 --> Undefined array key 0
+in APPPATH\Views\pages\KonfirmasiBookOffline.php on line 20.
+ 1 APPPATH\Views\pages\KonfirmasiBookOffline.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\KonfirmasiBookOffline.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBookOffline.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOffline', [], true)
+ 5 APPPATH\Controllers\Booking.php(135): view('/pages/KonfirmasiBookOffline', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 10:59:07 --> Undefined array key 0
+in APPPATH\Views\pages\KonfirmasiBookOffline.php on line 20.
+ 1 APPPATH\Views\pages\KonfirmasiBookOffline.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\KonfirmasiBookOffline.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBookOffline.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOffline', [], true)
+ 5 APPPATH\Controllers\Booking.php(135): view('/pages/KonfirmasiBookOffline', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 11:06:49 --> Undefined array key 0
+in APPPATH\Views\pages\KonfirmasiBookOffline.php on line 20.
+ 1 APPPATH\Views\pages\KonfirmasiBookOffline.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\KonfirmasiBookOffline.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBookOffline.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOffline', [], true)
+ 5 APPPATH\Controllers\Booking.php(135): view('/pages/KonfirmasiBookOffline', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 11:14:15 --> Undefined array key "Email_pelanggan"
+in APPPATH\Views\admin\Data_pelanggan.php on line 120.
+ 1 APPPATH\Views\admin\Data_pelanggan.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Email_pelanggan"', 'APPPATH\\Views\\admin\\Data_pelanggan.php', 120)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_pelanggan', [], true)
+ 5 APPPATH\Controllers\Admin\Data_pelanggan.php(26): view('admin/Data_pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_pelanggan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_pelanggan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 11:28:09 --> Undefined constant " "
+in APPPATH\Views\admin\Data_pelanggan.php on line 139.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_pelanggan', [], true)
+ 4 APPPATH\Controllers\Admin\Data_pelanggan.php(26): view('admin/Data_pelanggan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_pelanggan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_pelanggan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 11:44:59 --> Undefined constant "App\Models\   return"
+in APPPATH\Models\AdminModel.php on line 239.
+ 1 APPPATH\Controllers\Admin\Data_pelanggan.php(45): App\Models\AdminModel->editDataUserforAdmin([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_pelanggan->editDataUserforAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_pelanggan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:00:15 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('editDataLayanan')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:02:01 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('editDataLayanan')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:12:59 --> Undefined array key "Nama_pelanggan"
+in APPPATH\Views\admin\Data_booking.php on line 130.
+ 1 APPPATH\Views\admin\Data_booking.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nama_pelanggan"', 'APPPATH\\Views\\admin\\Data_booking.php', 130)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_booking.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_booking', [], true)
+ 5 APPPATH\Controllers\Admin\Data_booking.php(27): view('admin/Data_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:13:12 --> Undefined array key "Nama_pelanggan"
+in APPPATH\Views\admin\Data_booking.php on line 130.
+ 1 APPPATH\Views\admin\Data_booking.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nama_pelanggan"', 'APPPATH\\Views\\admin\\Data_booking.php', 130)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_booking.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_booking', [], true)
+ 5 APPPATH\Controllers\Admin\Data_booking.php(27): view('admin/Data_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:15:26 --> Undefined array key "Nama_pelanggan"
+in APPPATH\Views\admin\Data_booking.php on line 130.
+ 1 APPPATH\Views\admin\Data_booking.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nama_pelanggan"', 'APPPATH\\Views\\admin\\Data_booking.php', 130)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_booking.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_booking', [], true)
+ 5 APPPATH\Controllers\Admin\Data_booking.php(27): view('admin/Data_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:31:10 --> Undefined array key "Tanggal_booking"
+in APPPATH\Views\admin\Data_booking.php on line 138.
+ 1 APPPATH\Views\admin\Data_booking.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tanggal_booking"', 'APPPATH\\Views\\admin\\Data_booking.php', 138)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_booking.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_booking', [], true)
+ 5 APPPATH\Controllers\Admin\Data_booking.php(27): view('admin/Data_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:31:13 --> Undefined array key "Tanggal_booking"
+in APPPATH\Views\admin\Data_booking.php on line 138.
+ 1 APPPATH\Views\admin\Data_booking.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tanggal_booking"', 'APPPATH\\Views\\admin\\Data_booking.php', 138)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_booking.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_booking', [], true)
+ 5 APPPATH\Controllers\Admin\Data_booking.php(27): view('admin/Data_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:55:51 --> syntax error, unexpected end of file
+in APPPATH\Views\admin\Data_booking.php on line 199.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_booking', [], true)
+ 3 APPPATH\Controllers\Admin\Data_booking.php(27): view('admin/Data_booking', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:56:30 --> syntax error, unexpected end of file
+in APPPATH\Views\admin\Data_booking.php on line 199.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_booking', [], true)
+ 3 APPPATH\Controllers\Admin\Data_booking.php(27): view('admin/Data_booking', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:56:37 --> syntax error, unexpected end of file
+in APPPATH\Views\admin\Data_booking.php on line 199.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_booking', [], true)
+ 3 APPPATH\Controllers\Admin\Data_booking.php(27): view('admin/Data_booking', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:57:14 --> syntax error, unexpected end of file
+in APPPATH\Views\admin\Data_booking.php on line 199.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_booking', [], true)
+ 3 APPPATH\Controllers\Admin\Data_booking.php(27): view('admin/Data_booking', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 13:05:18 --> Undefined array key "id_layann"
+in APPPATH\Views\admin\Data_booking.php on line 53.
+ 1 APPPATH\Views\admin\Data_booking.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_layann"', 'APPPATH\\Views\\admin\\Data_booking.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_booking.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_booking', [], true)
+ 5 APPPATH\Controllers\Admin\Data_booking.php(27): view('admin/Data_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 13:14:24 --> Undefined array key 0
+in APPPATH\Views\pages\KonfirmasiBookOffline.php on line 20.
+ 1 APPPATH\Views\pages\KonfirmasiBookOffline.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\KonfirmasiBookOffline.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBookOffline.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOffline', [], true)
+ 5 APPPATH\Controllers\Booking.php(135): view('/pages/KonfirmasiBookOffline', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 13:14:40 --> Undefined array key 0
+in APPPATH\Views\pages\KonfirmasiBookOffline.php on line 20.
+ 1 APPPATH\Views\pages\KonfirmasiBookOffline.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\KonfirmasiBookOffline.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBookOffline.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOffline', [], true)
+ 5 APPPATH\Controllers\Booking.php(135): view('/pages/KonfirmasiBookOffline', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 13:15:12 --> Undefined array key 0
+in APPPATH\Views\pages\KonfirmasiBookOffline.php on line 20.
+ 1 APPPATH\Views\pages\KonfirmasiBookOffline.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\KonfirmasiBookOffline.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBookOffline.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOffline', [], true)
+ 5 APPPATH\Controllers\Booking.php(135): view('/pages/KonfirmasiBookOffline', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 13:15:18 --> Class "App\Controllers\Dompdf" not found
+in APPPATH\Controllers\Booking.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 13:27:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '276'' at line 1 in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE booking ...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE booking ...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE booking ...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(158): CodeIgniter\Database\BaseConnection->query('UPDATE booking ...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php(123): App\Models\PenggunaModel->insertAlasanBatal('276')
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Booking->verifikasiBatal()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-20 13:27:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '276'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE booking SET Alasan_batal =\'gg\\\' WHERE id_booking=\'276\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE booking SET Alasan_batal =\'gg\\\' WHERE id_booking=\'276\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE booking SET Alasan_batal =\'gg\\\' WHERE id_booking=\'276\'')
+ 4 APPPATH\Models\PenggunaModel.php(158): CodeIgniter\Database\BaseConnection->query('UPDATE booking SET Alasan_batal =\'gg\\\' WHERE id_booking=\'276\'')
+ 5 APPPATH\Controllers\Booking.php(123): App\Models\PenggunaModel->insertAlasanBatal('276')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->verifikasiBatal()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 13:27:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '276'' at line 1 in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE booking ...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE booking ...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE booking ...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(158): CodeIgniter\Database\BaseConnection->query('UPDATE booking ...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php(123): App\Models\PenggunaModel->insertAlasanBatal('276')
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Booking->verifikasiBatal()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-20 13:27:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '276'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE booking SET Alasan_batal =\'gg\\\' WHERE id_booking=\'276\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE booking SET Alasan_batal =\'gg\\\' WHERE id_booking=\'276\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE booking SET Alasan_batal =\'gg\\\' WHERE id_booking=\'276\'')
+ 4 APPPATH\Models\PenggunaModel.php(158): CodeIgniter\Database\BaseConnection->query('UPDATE booking SET Alasan_batal =\'gg\\\' WHERE id_booking=\'276\'')
+ 5 APPPATH\Controllers\Booking.php(123): App\Models\PenggunaModel->insertAlasanBatal('276')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->verifikasiBatal()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 13:32:42 --> Undefined variable $booking
+in APPPATH\Views\admin\Data_laporan.php on line 14.
+ 1 APPPATH\Views\admin\Data_laporan.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $booking', 'APPPATH\\Views\\admin\\Data_laporan.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_laporan', [], true)
+ 5 APPPATH\Controllers\Admin\Data_laporan.php(12): view('admin/Data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 13:34:56 --> Undefined variable $booking
+in APPPATH\Views\admin\Data_laporan.php on line 14.
+ 1 APPPATH\Views\admin\Data_laporan.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $booking', 'APPPATH\\Views\\admin\\Data_laporan.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_laporan', [], true)
+ 5 APPPATH\Controllers\Admin\Data_laporan.php(12): view('admin/Data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 13:36:15 --> Undefined variable $booking
+in APPPATH\Views\admin\Data_laporan.php on line 14.
+ 1 APPPATH\Views\admin\Data_laporan.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $booking', 'APPPATH\\Views\\admin\\Data_laporan.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_laporan', [], true)
+ 5 APPPATH\Controllers\Admin\Data_laporan.php(12): view('admin/Data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 13:36:17 --> Undefined variable $booking
+in APPPATH\Views\admin\Data_laporan.php on line 14.
+ 1 APPPATH\Views\admin\Data_laporan.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $booking', 'APPPATH\\Views\\admin\\Data_laporan.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_laporan', [], true)
+ 5 APPPATH\Controllers\Admin\Data_laporan.php(12): view('admin/Data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 13:39:21 --> Undefined variable $booking
+in APPPATH\Views\admin\Data_laporan.php on line 17.
+ 1 APPPATH\Views\admin\Data_laporan.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $booking', 'APPPATH\\Views\\admin\\Data_laporan.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_laporan', [], true)
+ 5 APPPATH\Controllers\Admin\Data_laporan.php(12): view('admin/Data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 13:43:25 --> Undefined property: App\Controllers\Admin\Data_laporan::$AdminModel
+in APPPATH\Controllers\Admin\Data_laporan.php on line 11.
+ 1 APPPATH\Controllers\Admin\Data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Data_laporan::$AdminModel', 'APPPATH\\Controllers\\Admin\\Data_laporan.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 13:45:12 --> Undefined property: App\Controllers\Admin\Data_laporan::$AdminModel
+in APPPATH\Controllers\Admin\Data_laporan.php on line 11.
+ 1 APPPATH\Controllers\Admin\Data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Data_laporan::$AdminModel', 'APPPATH\\Controllers\\Admin\\Data_laporan.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 13:47:39 --> Undefined array key 0
+in APPPATH\Views\admin\Data_laporan.php on line 17.
+ 1 APPPATH\Views\admin\Data_laporan.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\admin\\Data_laporan.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_laporan', [], true)
+ 5 APPPATH\Controllers\Admin\Data_laporan.php(30): view('admin/Data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 13:50:43 --> Undefined array key 0
+in APPPATH\Views\admin\Data_laporan.php on line 17.
+ 1 APPPATH\Views\admin\Data_laporan.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\admin\\Data_laporan.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_laporan', [], true)
+ 5 APPPATH\Controllers\Admin\Data_laporan.php(33): view('admin/Data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 13:52:23 --> Undefined variable $booking
+in APPPATH\Views\admin\Data_laporan.php on line 17.
+ 1 APPPATH\Views\admin\Data_laporan.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $booking', 'APPPATH\\Views\\admin\\Data_laporan.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_laporan', [], true)
+ 5 APPPATH\Controllers\Admin\Data_laporan.php(30): view('admin/Data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 13:53:53 --> Undefined array key 0
+in APPPATH\Views\pages\KonfirmasiBookOffline.php on line 20.
+ 1 APPPATH\Views\pages\KonfirmasiBookOffline.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\pages\\KonfirmasiBookOffline.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBookOffline.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOffline', [], true)
+ 5 APPPATH\Controllers\Booking.php(51): view('/pages/KonfirmasiBookOffline', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->konfirmasiBookOffline()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 13:58:34 --> Undefined array key 0
+in APPPATH\Views\admin\Data_laporan.php on line 17.
+ 1 APPPATH\Views\admin\Data_laporan.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\admin\\Data_laporan.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_laporan', [], true)
+ 5 APPPATH\Controllers\Admin\Data_laporan.php(33): view('admin/Data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 14:23:49 --> Undefined array key 0
+in APPPATH\Views\admin\Data_laporan.php on line 17.
+ 1 APPPATH\Views\admin\Data_laporan.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\admin\\Data_laporan.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_laporan', [], true)
+ 5 APPPATH\Controllers\Admin\Data_laporan.php(33): view('admin/Data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 14:31:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Data_laporan.php(33): CodeIgniter\Model->__call('selectdatabooking', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 21:08:16 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '12345', 'salonungu', 3306, '', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\SalonUngu\app\Models\AdminModel.php(77): CodeIgniter\Database\BaseConnection->query('SELECT * FROM b...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Admin\Data_booking.php(24): App\Models\AdminModel->selectdatabookingAdmin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\SalonUngu\app\Models\AdminModel.php(77): CodeIgniter\Database\BaseConnection->query('SELECT * FROM b...')
+#3 C:\xampp\htdocs\SalonUngu\app\Controllers\Admin\Data_booking.php(24): App\Models\AdminModel->selectdatabookingAdmin()
+#4 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-20 21:08:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\AdminModel.php(77): CodeIgniter\Database\BaseConnection->query('SELECT * FROM booking')
+ 3 APPPATH\Controllers\Admin\Data_booking.php(24): App\Models\AdminModel->selectdatabookingAdmin()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 21:20:52 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Admin\\Laporan', 'generatePDF')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 21:21:23 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Admin\\Laporan', 'generatePDF')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 21:22:17 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Admin\\Laporan', 'generatePDF')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 21:23:10 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Admin\\GeneratePDF', 'index')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 21:23:33 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Admin\\GeneratePDF', 'index')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 21:23:41 --> Undefined property: App\Controllers\Admin\Data_laporan::$AdminModelModel
+in APPPATH\Controllers\Admin\Data_laporan.php on line 40.
+ 1 APPPATH\Controllers\Admin\Data_laporan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Data_laporan::$AdminModelModel', 'APPPATH\\Controllers\\Admin\\Data_laporan.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->generatePDF()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 21:24:42 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Data_laporan.php(40): CodeIgniter\Model->__call('getDataByDateRange', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->generatePDF()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 21:24:48 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Data_laporan.php(40): CodeIgniter\Model->__call('getDataByDateRange', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->generatePDF()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 21:26:42 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Config\Services.php(364): CodeIgniter\Config\BaseService::getSharedInstance('language', null)
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language()
+ 5 SYSTEMPATH\Common.php(745): CodeIgniter\Config\BaseService::__callStatic('language', [])
+ 6 SYSTEMPATH\Exceptions\FrameworkException.php(33): lang('Core.invalidFile', [...])
+ 7 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/laporan_pdf.php')
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporan_pdf', [], true)
+ 9 APPPATH\Controllers\Admin\Data_laporan.php(43): view('admin/laporan_pdf', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->generatePDF()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 21:26:48 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Config\Services.php(364): CodeIgniter\Config\BaseService::getSharedInstance('language', null)
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language()
+ 5 SYSTEMPATH\Common.php(745): CodeIgniter\Config\BaseService::__callStatic('language', [])
+ 6 SYSTEMPATH\Exceptions\FrameworkException.php(33): lang('Core.invalidFile', [...])
+ 7 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/laporan_pdf.php')
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporan_pdf', [], true)
+ 9 APPPATH\Controllers\Admin\Data_laporan.php(43): view('admin/laporan_pdf', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->generatePDF()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 21:42:54 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Config\Services.php(364): CodeIgniter\Config\BaseService::getSharedInstance('language', null)
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language()
+ 5 SYSTEMPATH\Common.php(745): CodeIgniter\Config\BaseService::__callStatic('language', [])
+ 6 SYSTEMPATH\Exceptions\FrameworkException.php(33): lang('Core.invalidFile', [...])
+ 7 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/laporan_pdf.php')
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporan_pdf', [], true)
+ 9 APPPATH\Controllers\Admin\Data_laporan.php(43): view('admin/laporan_pdf', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->generatePDF()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 21:46:24 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Config\Services.php(364): CodeIgniter\Config\BaseService::getSharedInstance('language', null)
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language()
+ 5 SYSTEMPATH\Common.php(745): CodeIgniter\Config\BaseService::__callStatic('language', [])
+ 6 SYSTEMPATH\Exceptions\FrameworkException.php(33): lang('Core.invalidFile', [...])
+ 7 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/laporan_pdf.php')
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporan_pdf', [], true)
+ 9 APPPATH\Controllers\Admin\Data_laporan.php(43): view('admin/laporan_pdf', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->generatePDF()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 21:46:31 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Config\Services.php(364): CodeIgniter\Config\BaseService::getSharedInstance('language', null)
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language()
+ 5 SYSTEMPATH\Common.php(745): CodeIgniter\Config\BaseService::__callStatic('language', [])
+ 6 SYSTEMPATH\Exceptions\FrameworkException.php(33): lang('Core.invalidFile', [...])
+ 7 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/laporan_pdf.php')
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporan_pdf', [], true)
+ 9 APPPATH\Controllers\Admin\Data_laporan.php(43): view('admin/laporan_pdf', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->generatePDF()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 21:51:00 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Config\Services.php(364): CodeIgniter\Config\BaseService::getSharedInstance('language', null)
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language()
+ 5 SYSTEMPATH\Common.php(745): CodeIgniter\Config\BaseService::__callStatic('language', [])
+ 6 SYSTEMPATH\Exceptions\FrameworkException.php(33): lang('Core.invalidFile', [...])
+ 7 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/laporan_pdf.php')
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporan_pdf', [], true)
+ 9 APPPATH\Controllers\Admin\Data_laporan.php(43): view('admin/laporan_pdf', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->generatePDF()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 21:51:25 --> Undefined variable $booking
+in APPPATH\Views\admin\Data_laporan.php on line 40.
+ 1 APPPATH\Views\admin\Data_laporan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $booking', 'APPPATH\\Views\\admin\\Data_laporan.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_laporan', [], true)
+ 5 APPPATH\Controllers\Admin\Data_laporan.php(43): view('admin/Data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->generatePDF()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 21:52:04 --> Undefined variable $title
+in APPPATH\Views\layout\templateAdmin.php on line 13.
+ 1 APPPATH\Views\layout\templateAdmin.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layout\\templateAdmin.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\templateAdmin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('/layout/templateAdmin', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_laporan', [], true)
+ 6 APPPATH\Controllers\Admin\Data_laporan.php(43): view('admin/Data_laporan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->generatePDF()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 22:08:45 --> mysqli_sql_exception: Unknown column 'Harga' in 'field list' in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(Harg...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(Harg...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(Harg...')
+#3 C:\xampp\htdocs\SalonUngu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SUM(Harg...', Array, false)
+#4 C:\xampp\htdocs\SalonUngu\app\Models\AdminModel.php(302): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SalonUngu\app\Controllers\Admin\Data_laporan.php(29): App\Models\AdminModel->getConfirmedBookings()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->index()
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+#8 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-20 22:08:45 --> Unknown column 'Harga' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(Harga) as total_keuntungan
+FROM `booking`
+WHERE `Status_booking` = \'terkonfirmasi\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(Harga) as total_keuntungan
+FROM `booking`
+WHERE `Status_booking` = \'terkonfirmasi\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(Harga) as total_keuntungan
+FROM `booking`
+WHERE `Status_booking` = \'terkonfirmasi\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SUM(Harga) as total_keuntungan
+FROM `booking`
+WHERE `Status_booking` = :Status_booking:', [...], false)
+ 5 APPPATH\Models\AdminModel.php(302): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin\Data_laporan.php(29): App\Models\AdminModel->getConfirmedBookings()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 22:12:46 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 8.
+ 1 APPPATH\Views\layout\template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layout\\template.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('/layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOffline', [], true)
+ 6 APPPATH\Controllers\Booking.php(136): view('/pages/KonfirmasiBookOffline', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 22:12:50 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 8.
+ 1 APPPATH\Views\layout\template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layout\\template.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('/layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOffline', [], true)
+ 6 APPPATH\Controllers\Booking.php(136): view('/pages/KonfirmasiBookOffline', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 22:13:25 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 8.
+ 1 APPPATH\Views\layout\template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layout\\template.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('/layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/KonfirmasiBookOffline', [], true)
+ 6 APPPATH\Controllers\Booking.php(136): view('/pages/KonfirmasiBookOffline', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 22:24:55 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Config\Services.php(364): CodeIgniter\Config\BaseService::getSharedInstance('language', null)
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language()
+ 5 SYSTEMPATH\Common.php(745): CodeIgniter\Config\BaseService::__callStatic('language', [])
+ 6 SYSTEMPATH\Exceptions\FrameworkException.php(33): lang('Core.invalidFile', [...])
+ 7 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/printpdfKofirmasi.php')
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/printpdfKofirmasi', [], true)
+ 9 APPPATH\Controllers\Booking.php(135): view('pages/printpdfKofirmasi', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 22:25:11 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Config\Services.php(364): CodeIgniter\Config\BaseService::getSharedInstance('language', null)
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language()
+ 5 SYSTEMPATH\Common.php(745): CodeIgniter\Config\BaseService::__callStatic('language', [])
+ 6 SYSTEMPATH\Exceptions\FrameworkException.php(33): lang('Core.invalidFile', [...])
+ 7 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/printpdfKofirmasi.php')
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/printpdfKofirmasi', [], true)
+ 9 APPPATH\Controllers\Booking.php(135): view('pages/printpdfKofirmasi', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 22:25:16 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Config\Services.php(364): CodeIgniter\Config\BaseService::getSharedInstance('language', null)
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language()
+ 5 SYSTEMPATH\Common.php(745): CodeIgniter\Config\BaseService::__callStatic('language', [])
+ 6 SYSTEMPATH\Exceptions\FrameworkException.php(33): lang('Core.invalidFile', [...])
+ 7 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/printpdfKofirmasi.php')
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/printpdfKofirmasi', [], true)
+ 9 APPPATH\Controllers\Booking.php(135): view('pages/printpdfKofirmasi', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->printpdf()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 22:40:56 --> Undefined variable $booking
+in APPPATH\Views\admin\laporan_pdf.php on line 18.
+ 1 APPPATH\Views\admin\laporan_pdf.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $booking', 'APPPATH\\Views\\admin\\laporan_pdf.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\laporan_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporan_pdf', [], true)
+ 5 APPPATH\Controllers\Admin\Data_laporan.php(43): view('admin/laporan_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_laporan->generatePDF()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

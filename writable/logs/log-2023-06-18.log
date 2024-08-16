@@ -1,0 +1,213 @@
+CRITICAL - 2023-06-18 00:47:41 --> Too few arguments to function App\Models\PenggunaModel::insertAlasanBatal(), 0 passed in C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php on line 121 and exactly 1 expected
+in APPPATH\Models\PenggunaModel.php on line 153.
+ 1 APPPATH\Controllers\Booking.php(121): App\Models\PenggunaModel->insertAlasanBatal()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->verifikasiBatal()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 00:49:05 --> Too few arguments to function App\Models\PenggunaModel::insertAlasanBatal(), 0 passed in C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php on line 121 and exactly 1 expected
+in APPPATH\Models\PenggunaModel.php on line 153.
+ 1 APPPATH\Controllers\Booking.php(121): App\Models\PenggunaModel->insertAlasanBatal()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->verifikasiBatal()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 00:49:13 --> Too few arguments to function App\Models\PenggunaModel::insertAlasanBatal(), 0 passed in C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php on line 121 and exactly 1 expected
+in APPPATH\Models\PenggunaModel.php on line 153.
+ 1 APPPATH\Controllers\Booking.php(121): App\Models\PenggunaModel->insertAlasanBatal()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->verifikasiBatal()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 00:51:04 --> Too few arguments to function App\Models\PenggunaModel::insertAlasanBatal(), 0 passed in C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php on line 123 and exactly 1 expected
+in APPPATH\Models\PenggunaModel.php on line 153.
+ 1 APPPATH\Controllers\Booking.php(123): App\Models\PenggunaModel->insertAlasanBatal()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->verifikasiBatal()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 00:51:11 --> Too few arguments to function App\Models\PenggunaModel::insertAlasanBatal(), 0 passed in C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php on line 123 and exactly 1 expected
+in APPPATH\Models\PenggunaModel.php on line 153.
+ 1 APPPATH\Controllers\Booking.php(123): App\Models\PenggunaModel->insertAlasanBatal()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->verifikasiBatal()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 00:54:47 --> Too few arguments to function App\Models\PenggunaModel::insertAlasanBatal(), 0 passed in C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php on line 123 and exactly 1 expected
+in APPPATH\Models\PenggunaModel.php on line 153.
+ 1 APPPATH\Controllers\Booking.php(123): App\Models\PenggunaModel->insertAlasanBatal()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->verifikasiBatal()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 01:02:52 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('images')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 01:03:39 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('images')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 02:08:11 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Buktibayar', '1687064692_49fcedf0aa9f9a1edcc0.png')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 02:08:11 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Buktibayar', '1687065067_0a1f3291ce9def90a4ef.png')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 02:08:11 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Buktibayar', '1687065420_76b97eefb95ed45c787a.png')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 02:08:11 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Buktibayar', '1687065681_af6c34fcd822f73d8a29.png')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 02:08:12 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Buktibayar', '1687064692_49fcedf0aa9f9a1edcc0.png')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 02:08:12 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Buktibayar', '1687065067_0a1f3291ce9def90a4ef.png')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 02:08:12 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Buktibayar', '1687065420_76b97eefb95ed45c787a.png')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 02:08:12 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Buktibayar', '1687065681_af6c34fcd822f73d8a29.png')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 02:19:55 --> Undefined variable $mhs
+in APPPATH\Views\admin\Data_pelanggan.php on line 105.
+ 1 APPPATH\Views\admin\Data_pelanggan.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mhs', 'APPPATH\\Views\\admin\\Data_pelanggan.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_pelanggan', [], true)
+ 5 APPPATH\Controllers\Admin\Data_pelanggan.php(26): view('admin/Data_pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_pelanggan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_pelanggan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 03:42:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Data_pelanggan.php(43): CodeIgniter\Model->__call('editUserforAdmin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_pelanggan->EditDataPelanggan('2')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_pelanggan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 03:42:46 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Data_pelanggan.php(43): CodeIgniter\Model->__call('editUserforAdmin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_pelanggan->EditDataPelanggan('2')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_pelanggan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 03:42:54 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Data_pelanggan.php(43): CodeIgniter\Model->__call('editUserforAdmin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_pelanggan->EditDataPelanggan('15')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_pelanggan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 03:44:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Data_pelanggan.php(43): CodeIgniter\Model->__call('editUserforAdmin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_pelanggan->EditDataPelanggan('15')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_pelanggan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 03:45:40 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Admin\\EditDataPelanggan', 'index')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 03:45:47 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Data_pelanggan.php(43): CodeIgniter\Model->__call('editUserforAdmin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_pelanggan->EditDataPelanggan('2')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_pelanggan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 03:46:36 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Data_pelanggan.php(43): CodeIgniter\Model->__call('editUserforAdmin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_pelanggan->EditDataPelanggan('2')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_pelanggan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 03:46:51 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Data_pelanggan.php(43): CodeIgniter\Model->__call('editUserforAdmin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_pelanggan->EditDataPelanggan('2')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_pelanggan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

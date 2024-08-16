@@ -1,0 +1,499 @@
+CRITICAL - 2022-12-06 02:53:46 --> Undefined property: App\Controllers\Pages::$BookingModel
+in APPPATH\Controllers\Pages.php on line 44.
+ 1 APPPATH\Controllers\Pages.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Pages::$BookingModel', 'APPPATH\\Controllers\\Pages.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->aksi_booking()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:54:33 --> Undefined property: App\Controllers\Pages::$BookingModel
+in APPPATH\Controllers\Pages.php on line 44.
+ 1 APPPATH\Controllers\Pages.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Pages::$BookingModel', 'APPPATH\\Controllers\\Pages.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->aksi_booking()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:55:11 --> Undefined property: App\Controllers\Pages::$BookingModel
+in APPPATH\Controllers\Pages.php on line 45.
+ 1 APPPATH\Controllers\Pages.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Pages::$BookingModel', 'APPPATH\\Controllers\\Pages.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->aksi_booking()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:55:14 --> Undefined property: App\Controllers\Pages::$BookingModel
+in APPPATH\Controllers\Pages.php on line 45.
+ 1 APPPATH\Controllers\Pages.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Pages::$BookingModel', 'APPPATH\\Controllers\\Pages.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->aksi_booking()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:55:55 --> Undefined property: App\Controllers\Pages::$BookingModel
+in APPPATH\Controllers\Pages.php on line 45.
+ 1 APPPATH\Controllers\Pages.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Pages::$BookingModel', 'APPPATH\\Controllers\\Pages.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->aksi_booking()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:57:20 --> Class "App\Models\DaftarLayananModel" not found
+in APPPATH\Controllers\Pages.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Pages->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:57:22 --> Class "App\Models\DaftarLayananModel" not found
+in APPPATH\Controllers\Pages.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Pages->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 02:57:23 --> Class "App\Models\DaftarLayananModel" not found
+in APPPATH\Controllers\Pages.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Pages->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:46:54 --> Undefined array key "Nama"
+in APPPATH\Views\pages\KonfirmasiBook.php on line 23.
+ 1 APPPATH\Views\pages\KonfirmasiBook.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nama"', 'APPPATH\\Views\\pages\\KonfirmasiBook.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Pages/KonfirmasiBook', [], true)
+ 5 APPPATH\Controllers\Pages.php(53): view('/Pages/KonfirmasiBook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->konfirmasiBook()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:46:59 --> Undefined array key "Nama"
+in APPPATH\Views\pages\KonfirmasiBook.php on line 23.
+ 1 APPPATH\Views\pages\KonfirmasiBook.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nama"', 'APPPATH\\Views\\pages\\KonfirmasiBook.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Pages/KonfirmasiBook', [], true)
+ 5 APPPATH\Controllers\Pages.php(53): view('/Pages/KonfirmasiBook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->konfirmasiBook()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:48:56 --> Undefined array key "Nama"
+in APPPATH\Views\pages\KonfirmasiBook.php on line 23.
+ 1 APPPATH\Views\pages\KonfirmasiBook.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nama"', 'APPPATH\\Views\\pages\\KonfirmasiBook.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Pages/KonfirmasiBook', [], true)
+ 5 APPPATH\Controllers\Pages.php(53): view('/Pages/KonfirmasiBook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->konfirmasiBook()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 03:49:14 --> Undefined array key "Nama_Layanan"
+in APPPATH\Views\pages\KonfirmasiBook.php on line 23.
+ 1 APPPATH\Views\pages\KonfirmasiBook.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nama_Layanan"', 'APPPATH\\Views\\pages\\KonfirmasiBook.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\KonfirmasiBook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Pages/KonfirmasiBook', [], true)
+ 5 APPPATH\Controllers\Pages.php(53): view('/Pages/KonfirmasiBook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->konfirmasiBook()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 06:37:21 --> Class "App\Models\PenggunaModel" not found
+in APPPATH\Controllers\Pages.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Pages->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 06:37:23 --> Class "App\Models\PenggunaModel" not found
+in APPPATH\Controllers\Pages.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Pages->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 06:37:25 --> Class "App\Models\PenggunaModel" not found
+in APPPATH\Controllers\Pages.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Pages->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-06 06:48:22 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO kon...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO kon...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO kon...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO kon...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Pages.php(64): App\Models\PenggunaModel->insertdatakontak()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Pages->aksi_kontak()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 06:48:22 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO kontak(Nama, Email, No_Telpon, Pesan)
+                     VALUES(\'dee\', \'09737373\', \'rickuzo999@gmail.com\', \'33\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO kontak(Nama, Email, No_Telpon, Pesan)
+                     VALUES(\'dee\', \'09737373\', \'rickuzo999@gmail.com\', \'33\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO kontak(Nama, Email, No_Telpon, Pesan)
+                     VALUES(\'dee\', \'09737373\', \'rickuzo999@gmail.com\', \'33\')')
+ 4 APPPATH\Models\PenggunaModel.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO kontak(Nama, Email, No_Telpon, Pesan)
+                     VALUES(\'dee\', \'09737373\', \'rickuzo999@gmail.com\', \'33\')')
+ 5 APPPATH\Controllers\Pages.php(64): App\Models\PenggunaModel->insertdatakontak()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->aksi_kontak()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-06 06:48:28 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO kon...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO kon...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO kon...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO kon...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Pages.php(64): App\Models\PenggunaModel->insertdatakontak()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Pages->aksi_kontak()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 06:48:28 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO kontak(Nama, Email, No_Telpon, Pesan)
+                     VALUES(\'dee\', \'09737373\', \'rickuzo999@gmail.com\', \'33\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO kontak(Nama, Email, No_Telpon, Pesan)
+                     VALUES(\'dee\', \'09737373\', \'rickuzo999@gmail.com\', \'33\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO kontak(Nama, Email, No_Telpon, Pesan)
+                     VALUES(\'dee\', \'09737373\', \'rickuzo999@gmail.com\', \'33\')')
+ 4 APPPATH\Models\PenggunaModel.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO kontak(Nama, Email, No_Telpon, Pesan)
+                     VALUES(\'dee\', \'09737373\', \'rickuzo999@gmail.com\', \'33\')')
+ 5 APPPATH\Controllers\Pages.php(64): App\Models\PenggunaModel->insertdatakontak()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->aksi_kontak()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:16:09 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 8.
+ 1 APPPATH\Views\layout\template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layout\\template.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('/layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Dashboard', [], true)
+ 6 APPPATH\Controllers\Admin\Dashboard.php(11): view('admin/Dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 09:14:28 --> Undefined array key "id_mhs"
+in APPPATH\Views\admin\Dashboard.php on line 103.
+ 1 APPPATH\Views\admin\Dashboard.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mhs"', 'APPPATH\\Views\\admin\\Dashboard.php', 103)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(26): view('admin/Dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 10:51:41 --> Class "App\Models\LoginModel" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-06 11:13:05 --> mysqli_sql_exception: Table 'salonungu.pengguna' doesn't exist in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Pages.php(83): App\Models\PenggunaModel->cekLogin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Pages->login_aksi()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 11:13:05 --> Table 'salonungu.pengguna' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pengguna WHERE username=\'root\' AND password=\'12345\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pengguna WHERE username=\'root\' AND password=\'12345\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pengguna WHERE username=\'root\' AND password=\'12345\'')
+ 4 APPPATH\Models\PenggunaModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pengguna WHERE username=\'root\' AND password=\'12345\'')
+ 5 APPPATH\Controllers\Pages.php(83): App\Models\PenggunaModel->cekLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->login_aksi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-06 11:13:12 --> mysqli_sql_exception: Table 'salonungu.pengguna' doesn't exist in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Pages.php(83): App\Models\PenggunaModel->cekLogin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Pages->login_aksi()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 11:13:12 --> Table 'salonungu.pengguna' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pengguna WHERE username=\'root\' AND password=\'12345\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pengguna WHERE username=\'root\' AND password=\'12345\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pengguna WHERE username=\'root\' AND password=\'12345\'')
+ 4 APPPATH\Models\PenggunaModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pengguna WHERE username=\'root\' AND password=\'12345\'')
+ 5 APPPATH\Controllers\Pages.php(83): App\Models\PenggunaModel->cekLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->login_aksi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-06 11:13:22 --> mysqli_sql_exception: Table 'salonungu.pengguna' doesn't exist in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Pages.php(83): App\Models\PenggunaModel->cekLogin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Pages->login_aksi()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 11:13:22 --> Table 'salonungu.pengguna' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pengguna WHERE username=\'22\' AND password=\'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pengguna WHERE username=\'22\' AND password=\'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pengguna WHERE username=\'22\' AND password=\'2\'')
+ 4 APPPATH\Models\PenggunaModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pengguna WHERE username=\'22\' AND password=\'2\'')
+ 5 APPPATH\Controllers\Pages.php(83): App\Models\PenggunaModel->cekLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->login_aksi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-06 11:14:33 --> mysqli_sql_exception: Table 'salonungu.pengguna' doesn't exist in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Pages.php(83): App\Models\PenggunaModel->cekLogin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Pages->login_aksi()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 11:14:33 --> Table 'salonungu.pengguna' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pengguna WHERE username=\'Rafif\' AND password=\'123456\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pengguna WHERE username=\'Rafif\' AND password=\'123456\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pengguna WHERE username=\'Rafif\' AND password=\'123456\'')
+ 4 APPPATH\Models\PenggunaModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pengguna WHERE username=\'Rafif\' AND password=\'123456\'')
+ 5 APPPATH\Controllers\Pages.php(83): App\Models\PenggunaModel->cekLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->login_aksi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-06 11:15:16 --> mysqli_sql_exception: Unknown column 'username' in 'where clause' in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Pages.php(83): App\Models\PenggunaModel->cekLogin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Pages->login_aksi()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 11:15:16 --> Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pelanggan WHERE username=\'Rafif\' AND password=\'123456\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pelanggan WHERE username=\'Rafif\' AND password=\'123456\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pelanggan WHERE username=\'Rafif\' AND password=\'123456\'')
+ 4 APPPATH\Models\PenggunaModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelanggan WHERE username=\'Rafif\' AND password=\'123456\'')
+ 5 APPPATH\Controllers\Pages.php(83): App\Models\PenggunaModel->cekLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->login_aksi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-06 11:15:18 --> mysqli_sql_exception: Unknown column 'username' in 'where clause' in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Pages.php(83): App\Models\PenggunaModel->cekLogin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Pages->login_aksi()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 11:15:18 --> Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pelanggan WHERE username=\'Rafif\' AND password=\'123456\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pelanggan WHERE username=\'Rafif\' AND password=\'123456\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pelanggan WHERE username=\'Rafif\' AND password=\'123456\'')
+ 4 APPPATH\Models\PenggunaModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelanggan WHERE username=\'Rafif\' AND password=\'123456\'')
+ 5 APPPATH\Controllers\Pages.php(83): App\Models\PenggunaModel->cekLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->login_aksi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 12:00:28 --> Array to string conversion
+in APPPATH\Views\pages\Booking.php on line 11.
+ 1 APPPATH\Views\pages\Booking.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\Booking.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\Booking.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/Booking', [], true)
+ 5 APPPATH\Controllers\Pages.php(48): view('pages/Booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->booking()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 12:56:49 --> Undefined property: App\Controllers\Admin\Login_admin::$PenggunaModel
+in APPPATH\Controllers\Admin\Login_admin.php on line 21.
+ 1 APPPATH\Controllers\Admin\Login_admin.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Login_admin::$PenggunaModel', 'APPPATH\\Controllers\\Admin\\Login_admin.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Login_admin->aksi_login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login_admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 12:57:15 --> Undefined property: App\Controllers\Admin\Login_admin::$PenggunaModel
+in APPPATH\Controllers\Admin\Login_admin.php on line 21.
+ 1 APPPATH\Controllers\Admin\Login_admin.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Login_admin::$PenggunaModel', 'APPPATH\\Controllers\\Admin\\Login_admin.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Login_admin->aksi_login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login_admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-06 13:00:54 --> mysqli_sql_exception: Unknown column 'pass' in 'where clause' in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM a...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(162): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Admin\Login_admin.php(30): App\Models\PenggunaModel->cekLoginAdmin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Admin\Login_admin->aksi_login()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login_admin))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 13:00:54 --> Unknown column 'pass' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM admin WHERE email=\'\' AND pass=\'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM admin WHERE email=\'\' AND pass=\'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM admin WHERE email=\'\' AND pass=\'\'')
+ 4 APPPATH\Models\PenggunaModel.php(162): CodeIgniter\Database\BaseConnection->query('SELECT * FROM admin WHERE email=\'\' AND pass=\'\'')
+ 5 APPPATH\Controllers\Admin\Login_admin.php(30): App\Models\PenggunaModel->cekLoginAdmin()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Login_admin->aksi_login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login_admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-06 13:01:17 --> mysqli_sql_exception: Unknown column 'pass' in 'where clause' in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM a...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(162): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Admin\Login_admin.php(30): App\Models\PenggunaModel->cekLoginAdmin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Admin\Login_admin->aksi_login()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login_admin))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 13:01:17 --> Unknown column 'pass' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM admin WHERE email=\'\' AND pass=\'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM admin WHERE email=\'\' AND pass=\'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM admin WHERE email=\'\' AND pass=\'\'')
+ 4 APPPATH\Models\PenggunaModel.php(162): CodeIgniter\Database\BaseConnection->query('SELECT * FROM admin WHERE email=\'\' AND pass=\'\'')
+ 5 APPPATH\Controllers\Admin\Login_admin.php(30): App\Models\PenggunaModel->cekLoginAdmin()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Login_admin->aksi_login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login_admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-06 13:01:39 --> mysqli_sql_exception: Unknown column 'pass' in 'where clause' in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM a...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(162): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Admin\Login_admin.php(30): App\Models\PenggunaModel->cekLoginAdmin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Admin\Login_admin->aksi_login()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login_admin))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 13:01:39 --> Unknown column 'pass' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM admin WHERE email=\'\' AND pass=\'12345\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM admin WHERE email=\'\' AND pass=\'12345\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM admin WHERE email=\'\' AND pass=\'12345\'')
+ 4 APPPATH\Models\PenggunaModel.php(162): CodeIgniter\Database\BaseConnection->query('SELECT * FROM admin WHERE email=\'\' AND pass=\'12345\'')
+ 5 APPPATH\Controllers\Admin\Login_admin.php(30): App\Models\PenggunaModel->cekLoginAdmin()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Login_admin->aksi_login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login_admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-06 13:01:49 --> mysqli_sql_exception: Unknown column 'pass' in 'where clause' in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM a...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(162): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Admin\Login_admin.php(30): App\Models\PenggunaModel->cekLoginAdmin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Admin\Login_admin->aksi_login()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login_admin))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 13:01:49 --> Unknown column 'pass' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM admin WHERE email=\'\' AND pass=\'12345\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM admin WHERE email=\'\' AND pass=\'12345\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM admin WHERE email=\'\' AND pass=\'12345\'')
+ 4 APPPATH\Models\PenggunaModel.php(162): CodeIgniter\Database\BaseConnection->query('SELECT * FROM admin WHERE email=\'\' AND pass=\'12345\'')
+ 5 APPPATH\Controllers\Admin\Login_admin.php(30): App\Models\PenggunaModel->cekLoginAdmin()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Login_admin->aksi_login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login_admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-06 13:02:35 --> mysqli_sql_exception: Unknown column 'passwd' in 'where clause' in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM a...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(162): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Admin\Login_admin.php(30): App\Models\PenggunaModel->cekLoginAdmin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Admin\Login_admin->aksi_login()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login_admin))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 13:02:35 --> Unknown column 'passwd' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM admin WHERE email=\'\' AND passwd=\'12345\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM admin WHERE email=\'\' AND passwd=\'12345\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM admin WHERE email=\'\' AND passwd=\'12345\'')
+ 4 APPPATH\Models\PenggunaModel.php(162): CodeIgniter\Database\BaseConnection->query('SELECT * FROM admin WHERE email=\'\' AND passwd=\'12345\'')
+ 5 APPPATH\Controllers\Admin\Login_admin.php(30): App\Models\PenggunaModel->cekLoginAdmin()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Login_admin->aksi_login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login_admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-06 13:04:03 --> mysqli_sql_exception: Unknown column 'passwd' in 'where clause' in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM a...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(162): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Admin\Login_admin.php(30): App\Models\PenggunaModel->cekLoginAdmin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Admin\Login_admin->aksi_login()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login_admin))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 13:04:03 --> Unknown column 'passwd' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM admin WHERE email=\'rickz@gmail.com\' AND passwd=\'12345678\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM admin WHERE email=\'rickz@gmail.com\' AND passwd=\'12345678\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM admin WHERE email=\'rickz@gmail.com\' AND passwd=\'12345678\'')
+ 4 APPPATH\Models\PenggunaModel.php(162): CodeIgniter\Database\BaseConnection->query('SELECT * FROM admin WHERE email=\'rickz@gmail.com\' AND passwd=\'12345678\'')
+ 5 APPPATH\Controllers\Admin\Login_admin.php(30): App\Models\PenggunaModel->cekLoginAdmin()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Login_admin->aksi_login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login_admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

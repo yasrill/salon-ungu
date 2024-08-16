@@ -1,0 +1,636 @@
+CRITICAL - 2023-06-17 00:03:00 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('batalkan_pesanan')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 00:03:12 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('batalkan_pesanan')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-17 00:03:34 --> mysqli_sql_exception: Unknown column 'Alasan_pembatalan' in 'field list' in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE booking ...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE booking ...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE booking ...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(173): CodeIgniter\Database\BaseConnection->query('UPDATE booking ...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php(66): App\Models\PenggunaModel->insertbatalkan('151', NULL)
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Booking->dibatalkan()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-17 00:03:34 --> Unknown column 'Alasan_pembatalan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE booking SET Status_booking=\'Dibatalkan\', Alasan_pembatalan=\'\' WHERE id_booking=\'151\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE booking SET Status_booking=\'Dibatalkan\', Alasan_pembatalan=\'\' WHERE id_booking=\'151\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE booking SET Status_booking=\'Dibatalkan\', Alasan_pembatalan=\'\' WHERE id_booking=\'151\'')
+ 4 APPPATH\Models\PenggunaModel.php(173): CodeIgniter\Database\BaseConnection->query('UPDATE booking SET Status_booking=\'Dibatalkan\', Alasan_pembatalan=\'\' WHERE id_booking=\'151\'')
+ 5 APPPATH\Controllers\Booking.php(66): App\Models\PenggunaModel->insertbatalkan('151', null)
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->dibatalkan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 00:06:04 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('batalkan_pesanan')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 00:08:07 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('batalkan_pesanan')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 00:14:43 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Config\Services.php(364): CodeIgniter\Config\BaseService::getSharedInstance('language', null)
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language()
+ 5 SYSTEMPATH\Common.php(745): CodeIgniter\Config\BaseService::__callStatic('language', [])
+ 6 SYSTEMPATH\Exceptions\FrameworkException.php(33): lang('Core.invalidFile', [...])
+ 7 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/pages/VerifikasiBatal.php')
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/VerifikasiBatal', [], true)
+ 9 APPPATH\Controllers\Booking.php(75): view('/pages/VerifikasiBatal', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->verifikasiBatal()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 00:17:09 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Config\Services.php(364): CodeIgniter\Config\BaseService::getSharedInstance('language', null)
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language()
+ 5 SYSTEMPATH\Common.php(745): CodeIgniter\Config\BaseService::__callStatic('language', [])
+ 6 SYSTEMPATH\Exceptions\FrameworkException.php(33): lang('Core.invalidFile', [...])
+ 7 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/pages/VerifikasiBatal.php')
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/pages/VerifikasiBatal', [], true)
+ 9 APPPATH\Controllers\Booking.php(64): view('/pages/VerifikasiBatal', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->verifikasiBatal()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 00:18:46 --> Too few arguments to function App\Models\PenggunaModel::insertbatalkan(), 0 passed in C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php on line 61 and exactly 2 expected
+in APPPATH\Models\PenggunaModel.php on line 124.
+ 1 APPPATH\Controllers\Booking.php(61): App\Models\PenggunaModel->insertbatalkan()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->dibatalkan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 00:18:57 --> Too few arguments to function App\Models\PenggunaModel::insertbatalkan(), 0 passed in C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php on line 61 and exactly 2 expected
+in APPPATH\Models\PenggunaModel.php on line 124.
+ 1 APPPATH\Controllers\Booking.php(61): App\Models\PenggunaModel->insertbatalkan()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->dibatalkan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 00:49:12 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Pembayaran', 'online')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 01:38:17 --> Call to undefined method CodeIgniter\Router\AutoRouter::extend()
+in APPPATH\Controllers\komponen\bayarOffline.php on line 1.
+ 1 SYSTEMPATH\Router\AutoRouter.php(147): include_once()
+ 2 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('/komponen/bayarOffline')
+ 3 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('/komponen/bayarOffline')
+ 4 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('/komponen/bayarOffline')
+ 5 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 01:39:34 --> Call to undefined method CodeIgniter\Router\AutoRouter::extend()
+in APPPATH\Controllers\komponen\bayarOffline.php on line 1.
+ 1 SYSTEMPATH\Router\AutoRouter.php(147): include_once()
+ 2 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('/komponen/bayarOffline')
+ 3 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('/komponen/bayarOffline')
+ 4 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('/komponen/bayarOffline')
+ 5 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 01:40:35 --> Call to undefined method CodeIgniter\Router\AutoRouter::extend()
+in APPPATH\Controllers\komponen\bayarOffline.php on line 1.
+ 1 SYSTEMPATH\Router\AutoRouter.php(147): include_once()
+ 2 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('/komponen/bayarOffline')
+ 3 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('/komponen/bayarOffline')
+ 4 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('/komponen/bayarOffline')
+ 5 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 01:40:41 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Config\Services.php(364): CodeIgniter\Config\BaseService::getSharedInstance('language', null)
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language()
+ 5 SYSTEMPATH\Common.php(745): CodeIgniter\Config\BaseService::__callStatic('language', [])
+ 6 SYSTEMPATH\Exceptions\FrameworkException.php(33): lang('Core.invalidFile', [...])
+ 7 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/komponen/bayarOffline.php')
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/komponen/bayarOffline', [], true)
+ 9 APPPATH\Controllers\Booking.php(58): view('/komponen/bayarOffline')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->terkonfirmasi()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 01:40:56 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Config\Services.php(364): CodeIgniter\Config\BaseService::getSharedInstance('language', null)
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language()
+ 5 SYSTEMPATH\Common.php(745): CodeIgniter\Config\BaseService::__callStatic('language', [])
+ 6 SYSTEMPATH\Exceptions\FrameworkException.php(33): lang('Core.invalidFile', [...])
+ 7 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('komponen/bayarOffline.php')
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('komponen/bayarOffline', [], true)
+ 9 APPPATH\Controllers\Booking.php(58): view('komponen/bayarOffline')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->terkonfirmasi()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 01:45:29 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Pembayaran', 'offline')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 01:46:59 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Pembayaran', 'offline')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 01:47:03 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Pembayaran', 'offline')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 01:48:34 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Pembayaran', 'offline')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 01:48:37 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Pembayaran', 'offline')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 01:49:13 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Pembayaran', 'offline')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 01:49:17 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Pembayaran', 'offline')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 01:50:29 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Pembayaran', 'offline')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 01:50:42 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Pembayaran', 'offline')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-17 03:45:09 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '12345', 'salonungu', 3306, '', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(83): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php(39): App\Models\PenggunaModel->selectdatauser()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Booking->konfirmasiBook()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(83): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#3 C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php(39): App\Models\PenggunaModel->selectdatauser()
+#4 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Booking->konfirmasiBook()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-17 03:45:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\PenggunaModel.php(83): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelanggan')
+ 3 APPPATH\Controllers\Booking.php(39): App\Models\PenggunaModel->selectdatauser()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->konfirmasiBook()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-17 03:46:28 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '12345', 'salonungu', 3306, '', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(40): CodeIgniter\Database\BaseConnection->query('SELECT * FROM l...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php(23): App\Models\PenggunaModel->selectdatalayanan()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Booking->booking()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(40): CodeIgniter\Database\BaseConnection->query('SELECT * FROM l...')
+#3 C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php(23): App\Models\PenggunaModel->selectdatalayanan()
+#4 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Booking->booking()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-17 03:46:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\PenggunaModel.php(40): CodeIgniter\Database\BaseConnection->query('SELECT * FROM layanan')
+ 3 APPPATH\Controllers\Booking.php(23): App\Models\PenggunaModel->selectdatalayanan()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->booking()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 03:47:23 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Pembayaran', 'online')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 03:51:12 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Pembayaran', 'konfirmasiBookOnline')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 03:51:54 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Pembayaran', 'konfirmasiBookOnline')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 03:54:36 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Pembayaran', 'konfirmasiBookOnline')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 03:55:18 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Pembayaran', 'konfirmasiBookOnline')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 04:01:02 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Pembayaran', 'konfirmasiBookOnline')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 04:01:54 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Pembayaran', 'konfirmasiBookOnline')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 04:02:20 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(40): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.controllerNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(878): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controllers\\Pembayaran', 'konfirmasiBookOnline')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 09:25:38 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('terkonfirmasi')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 09:45:26 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('proses_pengiriman.php')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 09:51:07 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('proses_pengiriman.php')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 09:52:12 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('images')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 09:53:01 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('images')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:28:27 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Booking.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->buktiBayarOnline()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:28:27 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Booking.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->buktiBayarOnline()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:28:27 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Booking.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->buktiBayarOnline()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:28:28 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Booking.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->buktiBayarOnline()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:28:28 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Booking.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->buktiBayarOnline()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:28:28 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Booking.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->buktiBayarOnline()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:28:28 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Booking.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->buktiBayarOnline()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:28:28 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Booking.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->buktiBayarOnline()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:33:52 --> Call to undefined function App\Controllers\getName()
+in APPPATH\Controllers\Booking.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->buktiBayarOnline()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-17 22:18:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '')' at line 1 in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO boo...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO boo...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO boo...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(139): CodeIgniter\Database\BaseConnection->query('INSERT INTO boo...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Booking.php(90): App\Models\PenggunaModel->insertBuktiPembayaran()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Booking->buktiBayarOnline()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-17 22:18:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO booking(Bukti_bayar) VALUES(\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO booking(Bukti_bayar) VALUES(\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO booking(Bukti_bayar) VALUES(\')')
+ 4 APPPATH\Models\PenggunaModel.php(139): CodeIgniter\Database\BaseConnection->query('INSERT INTO booking(Bukti_bayar) VALUES(\')')
+ 5 APPPATH\Controllers\Booking.php(90): App\Models\PenggunaModel->insertBuktiPembayaran()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->buktiBayarOnline()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:37:29 --> Undefined variable $id_booking
+in APPPATH\Controllers\Booking.php on line 102.
+ 1 APPPATH\Controllers\Booking.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_booking', 'APPPATH\\Controllers\\Booking.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->buktiBayarOnline()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:38:11 --> Undefined variable $id_nama
+in APPPATH\Controllers\Booking.php on line 102.
+ 1 APPPATH\Controllers\Booking.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_nama', 'APPPATH\\Controllers\\Booking.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->buktiBayarOnline()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:38:17 --> Undefined variable $nama
+in APPPATH\Controllers\Booking.php on line 102.
+ 1 APPPATH\Controllers\Booking.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Controllers\\Booking.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->buktiBayarOnline()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:40:48 --> Undefined variable $id_booking
+in APPPATH\Models\PenggunaModel.php on line 137.
+ 1 APPPATH\Models\PenggunaModel.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_booking', 'APPPATH\\Models\\PenggunaModel.php', 137)
+ 2 APPPATH\Controllers\Booking.php(90): App\Models\PenggunaModel->insertBuktiPembayaran()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->buktiBayarOnline()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 23:27:12 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed after headers have already been sent', 'SYSTEMPATH\\Session\\Handlers\\FileHandler.php', 71)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(71): ini_set('session.save_path', 'FCPATH\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(658): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+ 8 APPPATH\Controllers\BaseController.php(52): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 SYSTEMPATH\CodeIgniter.php(890): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+10 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 23:27:14 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed after headers have already been sent', 'SYSTEMPATH\\Session\\Handlers\\FileHandler.php', 71)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(71): ini_set('session.save_path', 'FCPATH\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(658): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+ 8 APPPATH\Controllers\BaseController.php(52): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 SYSTEMPATH\CodeIgniter.php(890): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+10 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 23:27:15 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed after headers have already been sent', 'SYSTEMPATH\\Session\\Handlers\\FileHandler.php', 71)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(71): ini_set('session.save_path', 'FCPATH\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(658): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+ 8 APPPATH\Controllers\BaseController.php(52): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 SYSTEMPATH\CodeIgniter.php(890): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+10 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 23:27:16 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed after headers have already been sent', 'SYSTEMPATH\\Session\\Handlers\\FileHandler.php', 71)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(71): ini_set('session.save_path', 'FCPATH\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(658): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+ 8 APPPATH\Controllers\BaseController.php(52): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 SYSTEMPATH\CodeIgniter.php(890): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+10 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 23:36:59 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Config\Services.php(364): CodeIgniter\Config\BaseService::getSharedInstance('language', null)
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language()
+ 5 SYSTEMPATH\Common.php(745): CodeIgniter\Config\BaseService::__callStatic('language', [])
+ 6 SYSTEMPATH\Validation\Validation.php(764): lang('Validation.mime_in')
+ 7 SYSTEMPATH\Validation\Validation.php(341): CodeIgniter\Validation\Validation->getErrorMessage('mime_in', 'bukti_pembayaran', 'bukti_pembayaran', 'bukti_pembayaran,image/jpg,image/jpeg,image/png,application/pdf', 'C:\\xampp\\htdocs\\SalonUngu', null)
+ 8 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('bukti_pembayaran', 'bukti_pembayaran', null, [...], [...])
+ 9 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+10 APPPATH\Controllers\Booking.php(98): CodeIgniter\Controller->validate([...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->buktiBayarOnline()
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 23:37:07 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Config\Services.php(364): CodeIgniter\Config\BaseService::getSharedInstance('language', null)
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language()
+ 5 SYSTEMPATH\Common.php(745): CodeIgniter\Config\BaseService::__callStatic('language', [])
+ 6 SYSTEMPATH\Validation\Validation.php(764): lang('Validation.mime_in')
+ 7 SYSTEMPATH\Validation\Validation.php(341): CodeIgniter\Validation\Validation->getErrorMessage('mime_in', 'bukti_pembayaran', 'bukti_pembayaran', 'bukti_pembayaran,image/jpg,image/jpeg,image/png,application/pdf', 'C:\\xampp\\htdocs\\SalonUngu', null)
+ 8 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('bukti_pembayaran', 'bukti_pembayaran', null, [...], [...])
+ 9 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+10 APPPATH\Controllers\Booking.php(98): CodeIgniter\Controller->validate([...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->buktiBayarOnline()
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 23:37:12 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Config\Services.php(364): CodeIgniter\Config\BaseService::getSharedInstance('language', null)
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language()
+ 5 SYSTEMPATH\Common.php(745): CodeIgniter\Config\BaseService::__callStatic('language', [])
+ 6 SYSTEMPATH\Validation\Validation.php(764): lang('Validation.max_size')
+ 7 SYSTEMPATH\Validation\Validation.php(341): CodeIgniter\Validation\Validation->getErrorMessage('max_size', 'bukti_pembayaran', 'bukti_pembayaran', 'bukti_pembayaran,1024', 'C:\\xampp\\htdocs\\SalonUngu', null)
+ 8 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('bukti_pembayaran', 'bukti_pembayaran', null, [...], [...])
+ 9 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+10 APPPATH\Controllers\Booking.php(98): CodeIgniter\Controller->validate([...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->buktiBayarOnline()
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,350 @@
+CRITICAL - 2022-12-13 08:51:16 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Register_admin.php(32): CodeIgniter\Model->__call('insertdataregisterAdmin', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Register_admin->aksi_register()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Register_admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 08:52:07 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Register_admin.php(32): CodeIgniter\Model->__call('insertdataregisterAdmin', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Register_admin->aksi_register()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Register_admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 08:52:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Register_admin.php(32): CodeIgniter\Model->__call('insertdataregisterAdmin', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Register_admin->aksi_register()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Register_admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 08:52:25 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Register_admin.php(32): CodeIgniter\Model->__call('insertdataregisterAdmin', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Register_admin->aksi_register()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Register_admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 08:59:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Data_pelanggan.php(24): CodeIgniter\Model->__call('selectdatauser', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_pelanggan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_pelanggan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 08:59:32 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Data_booking.php(24): CodeIgniter\Model->__call('selectdatabooking', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 08:59:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Data_pelanggan.php(24): CodeIgniter\Model->__call('selectdatauser', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_pelanggan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_pelanggan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:04:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Data_booking.php(24): CodeIgniter\Model->__call('selectdatabooking', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:04:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Login_admin.php(33): CodeIgniter\Model->__call('cekLoginAdmin', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Login_admin->aksi_login()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login_admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:09:31 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Dashboard.php(30): CodeIgniter\Model->__call('selectdatakontak', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:24:42 --> Undefined array key "mail"
+in APPPATH\Views\pages\Booking.php on line 12.
+ 1 APPPATH\Views\pages\Booking.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mail"', 'APPPATH\\Views\\pages\\Booking.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\Booking.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/Booking', [], true)
+ 5 APPPATH\Controllers\Booking.php(34): view('pages/Booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->booking()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:47:30 --> Invalid file: pages/Logins.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/Logins.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/Logins', [], true)
+ 3 APPPATH\Controllers\Login.php(30): view('pages/Logins', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:47:40 --> Invalid file: pages/Logins.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/Logins.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/Logins', [], true)
+ 3 APPPATH\Controllers\Login.php(30): view('pages/Logins', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:48:08 --> Invalid file: pages/Logins.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/Logins.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/Logins', [], true)
+ 3 APPPATH\Controllers\Login.php(30): view('pages/Logins', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:48:38 --> Invalid file: pages/Logins.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/Logins.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/Logins', [], true)
+ 3 APPPATH\Controllers\Login.php(30): view('pages/Logins', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-13 20:53:56 --> mysqli_sql_exception: Unknown column 'nama' in 'where clause' in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Login.php(35): App\Models\PenggunaModel->cekLogin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Login->login_aksi()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-13 20:53:56 --> Unknown column 'nama' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pelanggan WHERE nama=\'Rafif\' AND password=\'12345\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pelanggan WHERE nama=\'Rafif\' AND password=\'12345\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pelanggan WHERE nama=\'Rafif\' AND password=\'12345\'')
+ 4 APPPATH\Models\PenggunaModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelanggan WHERE nama=\'Rafif\' AND password=\'12345\'')
+ 5 APPPATH\Controllers\Login.php(35): App\Models\PenggunaModel->cekLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_aksi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-13 20:54:06 --> mysqli_sql_exception: Unknown column 'nama' in 'where clause' in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Login.php(35): App\Models\PenggunaModel->cekLogin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Login->login_aksi()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-13 20:54:06 --> Unknown column 'nama' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pelanggan WHERE nama=\'Rafif\' AND password=\'123456\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pelanggan WHERE nama=\'Rafif\' AND password=\'123456\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pelanggan WHERE nama=\'Rafif\' AND password=\'123456\'')
+ 4 APPPATH\Models\PenggunaModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelanggan WHERE nama=\'Rafif\' AND password=\'123456\'')
+ 5 APPPATH\Controllers\Login.php(35): App\Models\PenggunaModel->cekLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_aksi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 21:40:46 --> Undefined property: App\Controllers\Booking::$db
+in APPPATH\Controllers\Booking.php on line 31.
+ 1 APPPATH\Controllers\Booking.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Booking::$db', 'APPPATH\\Controllers\\Booking.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->booking()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 21:41:28 --> Undefined property: App\Controllers\Booking::$db
+in APPPATH\Controllers\Booking.php on line 31.
+ 1 APPPATH\Controllers\Booking.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Booking::$db', 'APPPATH\\Controllers\\Booking.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->booking()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 21:41:31 --> Undefined property: App\Controllers\Booking::$db
+in APPPATH\Controllers\Booking.php on line 31.
+ 1 APPPATH\Controllers\Booking.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Booking::$db', 'APPPATH\\Controllers\\Booking.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Booking->booking()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-13 23:46:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDb  password='12345'' at line 1 in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Login.php(35): App\Models\PenggunaModel->cekLogin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Login->login_aksi()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-13 23:46:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDb  password='12345'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'12345\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'12345\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'12345\'')
+ 4 APPPATH\Models\PenggunaModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'12345\'')
+ 5 APPPATH\Controllers\Login.php(35): App\Models\PenggunaModel->cekLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_aksi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-13 23:46:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDb  password='s'' at line 1 in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Login.php(35): App\Models\PenggunaModel->cekLogin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Login->login_aksi()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-13 23:46:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDb  password='s'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'s\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'s\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'s\'')
+ 4 APPPATH\Models\PenggunaModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'s\'')
+ 5 APPPATH\Controllers\Login.php(35): App\Models\PenggunaModel->cekLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_aksi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:57:44 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\Login.php on line 39.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('/Login/login')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('/Login/login')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('/Login/login')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-13 23:58:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDb  password='12345'' at line 1 in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Login.php(35): App\Models\PenggunaModel->cekLogin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Login->login_aksi()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-13 23:58:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDb  password='12345'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'12345\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'12345\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'12345\'')
+ 4 APPPATH\Models\PenggunaModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'12345\'')
+ 5 APPPATH\Controllers\Login.php(35): App\Models\PenggunaModel->cekLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_aksi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-13 23:59:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDb  password='12345'' at line 1 in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Login.php(35): App\Models\PenggunaModel->cekLogin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Login->login_aksi()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-13 23:59:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDb  password='12345'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'12345\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'12345\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'12345\'')
+ 4 APPPATH\Models\PenggunaModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'12345\'')
+ 5 APPPATH\Controllers\Login.php(35): App\Models\PenggunaModel->cekLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_aksi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-13 23:59:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDb  password='12345'' at line 1 in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Login.php(35): App\Models\PenggunaModel->cekLogin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Login->login_aksi()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-13 23:59:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDb  password='12345'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'12345\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'12345\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'12345\'')
+ 4 APPPATH\Models\PenggunaModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'12345\'')
+ 5 APPPATH\Controllers\Login.php(35): App\Models\PenggunaModel->cekLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_aksi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-13 23:59:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDb  password='12345'' at line 1 in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Login.php(35): App\Models\PenggunaModel->cekLogin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Login->login_aksi()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-13 23:59:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDb  password='12345'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'12345\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'12345\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'12345\'')
+ 4 APPPATH\Models\PenggunaModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelanggan WHERE email=\'Rafif@gmail.com\' ANDb  password=\'12345\'')
+ 5 APPPATH\Controllers\Login.php(35): App\Models\PenggunaModel->cekLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_aksi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

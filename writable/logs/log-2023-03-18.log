@@ -1,0 +1,8 @@
+CRITICAL - 2023-03-18 03:58:23 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('images')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

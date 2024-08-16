@@ -1,0 +1,19 @@
+CRITICAL - 2022-12-12 22:11:35 --> Undefined array key "<b>id_layanan</b>"
+in APPPATH\Views\pages\DaftarLayanan.php on line 66.
+ 1 APPPATH\Views\pages\DaftarLayanan.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "<b>id_layanan</b>"', 'APPPATH\\Views\\pages\\DaftarLayanan.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\DaftarLayanan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/DaftarLayanan', [], true)
+ 5 APPPATH\Controllers\Pages.php(32): view('pages/DaftarLayanan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->layanan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 22:26:02 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\Pages/Beranda::index
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Pages/Beranda::index')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('C:\\')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('C:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

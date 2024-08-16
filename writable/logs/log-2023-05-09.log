@@ -1,0 +1,42 @@
+ERROR - 2023-05-09 22:08:57 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '12345', 'salonungu', 3306, '', 0)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\SalonUngu\app\Controllers\Login.php(35): App\Models\PenggunaModel->cekLogin()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Login->login_aksi()
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\SalonUngu\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\SalonUngu\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\SalonUngu\app\Models\PenggunaModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#3 C:\xampp\htdocs\SalonUngu\app\Controllers\Login.php(35): App\Models\PenggunaModel->cekLogin()
+#4 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(927): App\Controllers\Login->login_aksi()
+#5 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\SalonUngu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\SalonUngu\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-09 22:08:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\PenggunaModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelanggan WHERE Nama_pelanggan=\'root\' AND password=\'12345\'')
+ 3 APPPATH\Controllers\Login.php(35): App\Models\PenggunaModel->cekLogin()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_aksi()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 22:56:08 --> Class "CodeIgniter\Language\Language" not found
+in SYSTEMPATH\Config\Services.php on line 376.
+ 1 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::language('en', false)
+ 2 SYSTEMPATH\Exceptions\PageNotFoundException.php(59): CodeIgniter\Config\BaseService::__callStatic('language', [...])
+ 3 SYSTEMPATH\Exceptions\PageNotFoundException.php(45): CodeIgniter\Exceptions\PageNotFoundException::lang('HTTP.methodNotFound', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(476): CodeIgniter\Exceptions\PageNotFoundException::forMethodNotFound('images')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

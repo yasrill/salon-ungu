@@ -1,0 +1,77 @@
+CRITICAL - 2023-01-15 05:29:57 --> Undefined array key "Nama_layanan"
+in APPPATH\Views\admin\Data_booking.php on line 81.
+ 1 APPPATH\Views\admin\Data_booking.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nama_layanan"', 'APPPATH\\Views\\admin\\Data_booking.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_booking.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_booking', [], true)
+ 5 APPPATH\Controllers\Admin\Data_booking.php(26): view('admin/Data_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 06:10:15 --> Undefined variable $login_status
+in APPPATH\Views\admin\Data_booking.php on line 77.
+ 1 APPPATH\Views\admin\Data_booking.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $login_status', 'APPPATH\\Views\\admin\\Data_booking.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_booking.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_booking', [], true)
+ 5 APPPATH\Controllers\Admin\Data_booking.php(27): view('admin/Data_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 06:12:37 --> Undefined array key "id_pelanggan"
+in APPPATH\Views\admin\Data_booking.php on line 77.
+ 1 APPPATH\Views\admin\Data_booking.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pelanggan"', 'APPPATH\\Views\\admin\\Data_booking.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_booking.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_booking', [], true)
+ 5 APPPATH\Controllers\Admin\Data_booking.php(28): view('admin/Data_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 06:12:38 --> Undefined array key "id_pelanggan"
+in APPPATH\Views\admin\Data_booking.php on line 77.
+ 1 APPPATH\Views\admin\Data_booking.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pelanggan"', 'APPPATH\\Views\\admin\\Data_booking.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_booking.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_booking', [], true)
+ 5 APPPATH\Controllers\Admin\Data_booking.php(28): view('admin/Data_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 06:14:09 --> Undefined array key "id_pelanggan"
+in APPPATH\Views\admin\Data_booking.php on line 77.
+ 1 APPPATH\Views\admin\Data_booking.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pelanggan"', 'APPPATH\\Views\\admin\\Data_booking.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_booking.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_booking', [], true)
+ 5 APPPATH\Controllers\Admin\Data_booking.php(28): view('admin/Data_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 06:14:09 --> Undefined array key "id_pelanggan"
+in APPPATH\Views\admin\Data_booking.php on line 77.
+ 1 APPPATH\Views\admin\Data_booking.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pelanggan"', 'APPPATH\\Views\\admin\\Data_booking.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_booking.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_booking', [], true)
+ 5 APPPATH\Controllers\Admin\Data_booking.php(28): view('admin/Data_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 06:14:15 --> Undefined array key "id_pelanggan"
+in APPPATH\Views\admin\Data_booking.php on line 77.
+ 1 APPPATH\Views\admin\Data_booking.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pelanggan"', 'APPPATH\\Views\\admin\\Data_booking.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\Data_booking.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Data_booking', [], true)
+ 5 APPPATH\Controllers\Admin\Data_booking.php(28): view('admin/Data_booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_booking->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_booking))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

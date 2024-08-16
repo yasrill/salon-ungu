@@ -1,0 +1,14 @@
+CRITICAL - 2022-12-19 11:40:42 --> Undefined property: App\Controllers\Admin\Data_pelanggan::$PenggunaModel
+in APPPATH\Controllers\Admin\Data_pelanggan.php on line 32.
+ 1 APPPATH\Controllers\Admin\Data_pelanggan.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Data_pelanggan::$PenggunaModel', 'APPPATH\\Controllers\\Admin\\Data_pelanggan.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_pelanggan->tambahDataUserforAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_pelanggan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 11:41:25 --> Undefined property: App\Controllers\Admin\Data_pelanggan::$PenggunaModel
+in APPPATH\Controllers\Admin\Data_pelanggan.php on line 32.
+ 1 APPPATH\Controllers\Admin\Data_pelanggan.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Data_pelanggan::$PenggunaModel', 'APPPATH\\Controllers\\Admin\\Data_pelanggan.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Data_pelanggan->tambahDataUserforAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Data_pelanggan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,715 @@
+*,
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background-color: #500064;
+  font-family: "Poppins";
+  font-size: 16px;
+  padding: 16px;
+}
+
+.nav-kiri {
+  margin-left: 350px;
+}
+
+.nav-kanan {
+  margin-right: 300px;
+}
+
+/* .nav-item {
+    text-align: center;
+    justify-content: center;
+    margin-right: 20px;
+} */
+
+.logo {
+  width: 35px;
+  margin-right: 7px;
+}
+
+.banner {
+  background-image: url("../images/pexels-rodnae-productions-7755291.png");
+  background-size: cover;
+  height: 666;
+  padding: 1921;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+
+.banner h3 {
+  padding-bottom: 30px;
+}
+
+.tombol {
+  color: #fff;
+  background-color: #500064 !important;
+}
+
+.welcome {
+  width: 100%;
+  height: 430px;
+}
+
+.welcome h3 {
+  padding-top: 80px;
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.welcome h5 {
+  padding-top: 10px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.welcome p {
+  padding-top: 10px;
+  margin-right: 150px;
+  margin-left: 150px;
+  font-size: 20px;
+}
+
+.welcome hr {
+  background-color: #000;
+  margin-right: 530px;
+  margin-left: 530px;
+  margin-top: 25px;
+  border-width: 2.5px;
+}
+
+.main-page {
+  width: 100%;
+  height: 1300px;
+  background-color: #500064;
+}
+
+.main-page p {
+  font-size: 18px;
+}
+
+.image1 {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.image1 img {
+  height: 300px;
+  width: 480px;
+  margin-right: 40px;
+  float: left;
+}
+
+.image1 h5 {
+  color: #fff;
+  text-align: justify;
+  margin-top: 100px;
+  padding-top: 50px;
+  font-size: 30px;
+}
+.image1 p {
+  color: #fff;
+  text-align: justify;
+}
+
+.main-page hr {
+  margin-top: 100px;
+  margin-right: 115px;
+  margin-left: 115px;
+  color: #000;
+  border-width: 1.8px;
+}
+
+.image2 {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.image2 img {
+  height: 300px;
+  width: 480px;
+  margin-left: 40px;
+  float: right;
+}
+
+.image2 h5 {
+  color: #fff;
+  text-align: justify;
+  margin-top: 50px;
+  padding-top: 50px;
+  left: 265px;
+  font-size: 30px;
+}
+.image2 p {
+  color: #fff;
+  text-align: justify;
+}
+
+.image3 {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.image3 img {
+  height: 300px;
+  width: 480px;
+  margin-right: 40px;
+  float: left;
+}
+
+.image3 h5 {
+  color: #fff;
+  text-align: justify;
+  margin-top: 50px;
+  padding-top: 50px;
+  font-size: 30px;
+}
+.image3 p {
+  color: #fff;
+  text-align: justify;
+}
+
+.list-pelayanan {
+  width: 100%;
+  height: 90px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #fff;
+}
+
+.list-pelayanan hr {
+  margin-right: 550px;
+  margin-left: 550px;
+  color: #000;
+  border-width: 1.8px;
+}
+
+.daftar-layanan {
+  width: 100%;
+  height: 600px;
+  margin-top: 40px;
+  background-color: #f0f0f0;
+}
+
+.container-layanan {
+  padding-top: 30px;
+}
+
+.daftar-layanan img {
+  height: 465px;
+  width: 278px;
+  float: left;
+  margin-left: 540px;
+}
+
+.list-layanan {
+  position: absolute;
+  left: 900px;
+}
+
+.galeri {
+  background-color: #500064;
+  width: 100%;
+  height: auto;
+}
+
+.galeri h3 {
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.galeri hr {
+  margin-right: 470px;
+  margin-left: 470px;
+  margin-bottom: 30px;
+  color: #000;
+  border-width: 1.8px;
+}
+
+.galeri img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 20px;
+  margin-right: 24px;
+  border-radius: 5px;
+}
+
+/* TENTANG */
+.tentang {
+  width: 100%;
+  height: 300px;
+  background-color: #500064;
+}
+
+.tentang {
+  color: #fff;
+  padding: 250px;
+  padding-top: 100px;
+}
+
+.text-tentang {
+  margin-top: 20px;
+}
+
+.text-tentang2 h3 {
+  margin-left: 12px;
+}
+
+.tentang h3 {
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.tentang p {
+  text-align: left;
+}
+
+.isi-tentang {
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+
+.isi-tentang img {
+  border-radius: 10px;
+}
+
+/* BAGIAN FOOTER */
+
+.footer {
+  padding: 7rem 0;
+  background-color: #000;
+  color: #777;
+}
+
+.alamat {
+  width: 100%;
+  height: 600px;
+  background-color: #000;
+}
+
+.teks-alamat {
+  color: #fff;
+  padding-top: 130px;
+}
+
+.maps {
+  width: 480px;
+  height: 277px;
+  padding-right: 20px;
+}
+
+.jam {
+  letter-spacing: 2px;
+  line-height: 33px;
+}
+
+.copyright {
+  border-top: 1px solid #404040;
+}
+
+/* FOOTER SELESAI */
+
+/* BAGIAN KONTAK KAMI */
+
+.kontak-kami {
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+.kontak-kami hr {
+  margin-left: 500px;
+}
+.contact-info {
+  display: flex;
+  flex-direction: row;
+}
+.contact-divider {
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+.contact-detail {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 1rem;
+  padding: 3.5rem 4rem;
+  background-color: #500064;
+  color: #fff !important;
+  text-align: center;
+  border-radius: 25px;
+}
+.reservation {
+  color: white !important;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.reservation .phone {
+  font-weight: 500;
+  font-size: 2rem;
+}
+.reservation a {
+  color: white !important;
+  text-transform: uppercase;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.store-name b {
+  position: relative;
+  font-size: 1.8rem;
+}
+.store-type b {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+/* KONTAK KAMI SELESAI */
+
+/* TErsedia pada beranda */
+
+.service {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.service hr {
+  width: 350px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 125px;
+}
+
+.harga {
+  text-align: center;
+  background-color: #404040;
+  justify-content: center;
+  padding: 8px;
+}
+
+/*** Testimonial ***/
+
+.testimoni {
+  margin-top: 25px;
+}
+.testimoni span {
+  font-size: 16px;
+}
+
+.bungkus-test {
+  justify-content: center;
+  text-align: center;
+  width: auto;
+}
+
+.testimoni hr {
+  width: 400px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 280px;
+}
+
+.bungkus-test div {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* daftar layanan */
+.garis {
+  margin-left: 500px;
+}
+
+/* profil menu */
+.profil {
+  margin-top: 150px;
+  background-color: whitesmoke;
+  padding: 100px;
+  border-radius: 30px;
+}
+
+.profil h3 {
+  text-align: center;
+}
+.profil button {
+  margin-left: 1000px;
+  margin-top: 50px;
+}
+
+/* profil end */
+
+/* booking start */
+.booking {
+  margin-top: 150px;
+  background-color: whitesmoke;
+  padding: 100px;
+  border-radius: 30px;
+}
+
+.booking h3 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.booking button {
+  margin-left: 1040px;
+  margin-top: 40px;
+}
+/* booking end */
+
+/* login admin start*/
+/* 
+.login-admin {
+  margin-top: 200px;
+  width: 500px;
+  background-color: whitesmoke;
+  padding: 100px;
+  border-radius: 20px;
+}
+
+.login-admin h3 {
+  margin-bottom: 50px;
+}
+
+.login-admin img {
+  text-align: center;
+}
+
+.login-admin div {
+  margin-top: 20px;
+} */
+
+
+/* register */
+
+.register {
+  background: #8a2be2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register form {
+  width: 500px;
+  border: 2px solid #ccc;
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.register input {
+  display: block;
+  border: 2px solid #ccc;
+  width: 95%;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.register label {
+  color: black;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.register button {
+  float: right;
+  background: #3138f7;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: none;
+}
+
+.register button:hover {
+  opacity: 0.7;
+}
+
+.error {
+  background: #f2dede;
+  color: #a94442;
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+.register textarea {
+  display: block;
+  border: 2px solid #ccc;
+  width: 95%;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.register p {
+  font-size: 15px;
+}
+
+.ungu {
+  margin-top: 70px;
+  font-size: 15px;
+}
+
+.ngelink {
+  margin-left: 12px;
+}
+
+/* register end */
+
+/* login */
+
+.login {
+  background: #8a2be2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login form {
+  width: 500px;
+  border: 2px solid #ccc;
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.login input {
+  display: block;
+  border: 2px solid #ccc;
+  width: 95%;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.login label {
+  color: black;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.text-bawah {
+  margin-left: 10px;
+}
+
+.login button {
+  float: right;
+  background: #3138f7;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: none;
+}
+
+.login button:hover {
+  opacity: 0.7;
+}
+/* 
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+} */
+
+/* a {
+   color: black;
+   padding: 10px;
+   margin: 20px auto;
+} */
+
+.ungu {
+  margin-top: 70px;
+  font-size: 15px;
+}
+
+.icon-nav{
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+}
+
+.icon-nav {
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+
+
+.showcase {
+  background-color: #500064;
+  color: white;
+}
+/* .showcase h1 {
+  color: black;
+}
+.showcase p {
+  color: whitesmoke;
+} */
+.showcase .showcase-text {
+  padding: 3rem;
+}
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+/* 
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.testimonials .testimonial-item {
+  max-width: 18rem;
+}
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+} */
+
+ /* konfirmasi pembayaran*/
+  .konfirm {
+    margin-top: 150px;
+    background-color: whitesmoke;
+    padding: 100px;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+
+  .konfirm h2 {
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: black;
+  }
+
+ .biru {
+  margin-left: 10px;
+  width: 100px auto;
+ }
+
+ .merah {
+  margin-left: 10px;
+  width: 100px;
+ }
